@@ -15,6 +15,7 @@ export default function ChatInput(props) {
                 value={message}
                 className="chat-input-textarea"
                 onChange={(e) => setMessage(e.target.value)}
+                
             ></textarea>
             <button className="chat-input-btn" onClick={()=>addMessage()}> send </button>
         </div>
